@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #FF3131;
+    --secondary-color: #D3D3D39D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 500;
+    margin: 25px;
+}
+
+.icones-redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.icones-redes a{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    box-shadow: 4px 4px 6px #00000069;
+}
+
+.icones-redes a:hover {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.texto-usar-conta {
+    font-size: 12px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.formulario input {
+    height: 40px;
+    width: 290px;
+    border: none;
+    background-color: #F3F3F3;
+    padding: 8px;
+}
+
+.esqueceu-senha {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.logar {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.logar:hover {
+    background-color: var(--primary-color);
+    color:#FFFFFF
+}
+
+.registro {
+    display: flex;
+    font-size: 16px;
+    gap: 8px;
+    margin: 20px;
+}
